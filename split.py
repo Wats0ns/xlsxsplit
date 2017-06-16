@@ -59,7 +59,7 @@ def starter(filename, parts_nb):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Needs a file name and a pice number")
+        print("Needs a file name and a parts number")
         sys.exit(1)
     print("Loading {}".format(sys.argv[1]))
     starter(sys.argv[1], int(sys.argv[2]))
