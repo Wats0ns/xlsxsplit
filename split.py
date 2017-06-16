@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import sys
-import csv
 
 from openpyxl import Workbook
 from openpyxl import load_workbook
